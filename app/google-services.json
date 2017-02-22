@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "430937819490",
+    "firebase_url": "https://firelearn-e2125.firebaseio.com",
+    "project_id": "firelearn-e2125",
+    "storage_bucket": "firelearn-e2125.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430937819490:android:f1bc56bc22805ed4",
+        "android_client_info": {
+          "package_name": "com.example.shubham.firebasetutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430937819490-mam9ljsiqnr88n4g9b9kvt4spcbcqtp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubham.firebasetutorial",
+            "certificate_hash": "a366904da6b12212e296a0e8aed0fc79e0c0db10"
+          }
+        },
+        {
+          "client_id": "430937819490-i8em9urqku6fg0t4tip34td2cd7avvus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6O38dGe8_4rnFXI32Q2MALL2fhOBFvUw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430937819490-i8em9urqku6fg0t4tip34td2cd7avvus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
