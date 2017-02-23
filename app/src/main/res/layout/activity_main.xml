@@ -24,11 +24,34 @@
 
     <Button
         android:layout_below="@id/Value"
-        android:text="Send Message"
+        android:text="Update Child"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
-        android:id="@+id/send_message"
+        android:id="@+id/update_child"
         android:onClick="OnClick"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add name of key here"
+        android:id="@+id/addKey"
+        android:layout_below="@+id/update_child"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add name of value here"
+        android:id="@+id/addValue"
+        android:layout_below="@+id/addKey"/>
+
+    <Button
+        android:layout_below="@id/addValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Add Child"
+        android:onClick="onChild"
+        />
 </RelativeLayout>
