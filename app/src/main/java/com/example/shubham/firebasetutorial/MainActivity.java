@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        updateKey = (EditText) findViewById(R.id.Key);
-        updateValue = (EditText) findViewById(R.id.Value);
+        //updateKey = (EditText) findViewById(R.id.Key);
+        //updateValue = (EditText) findViewById(R.id.Value);
 
         sendData = (Button) findViewById(R.id.update_child);
 
@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot child : dataSnapshot.getChildren()) {
                     data.add(child);
+                    Log.d("Value", " " + child.getValue(String.class));
                 }
 
 

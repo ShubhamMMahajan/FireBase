@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.shubham.firebasetutorial.MainActivity">
 
-    <EditText
+    <!--<EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter your key here"
@@ -20,11 +20,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter your value here"
-        android:id="@+id/Value"/>
+        android:id="@+id/Value"/> -->
+
+    <!--android:layout_below="@id/Value"-->
 
     <Button
-        android:layout_below="@id/Value"
-        android:text="Update Child"
+
+        android:text="Next Page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
